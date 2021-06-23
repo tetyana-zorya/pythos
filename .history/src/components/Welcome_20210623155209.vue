@@ -1,0 +1,20 @@
+<template>
+  <v-container>
+    <v-row class="text-center" style="position:absolute; top:200px">
+      <v-col cols="12" mb-4>
+       hello
+      </v-col>
+    </v-row>
+  </v-container>
+</template>
+
+<script>
+
+  export default {
+    name: 'Welcome',
+
+    data: () => ({
+      
+    }),
+  }
+</script>
