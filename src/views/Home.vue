@@ -37,6 +37,9 @@
     created() {
      
     },
+    mounted() {
+      this.begin()
+    },
     methods: {
 
       begin() {
@@ -45,7 +48,7 @@
 
         setTimeout(function () {
             document.getElementById('fp').style.opacity = 0;
-            }, 5000);
+            }, 5800);
 
         setTimeout(function () {
             let ele = document.getElementById('auth')
@@ -140,7 +143,7 @@ a {
   }
 
   .flower {
-    animation: move 5s;
+    animation: move 6s;
     animation-timing-function: ease-out;
   }
 
