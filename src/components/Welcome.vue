@@ -20,11 +20,5 @@
 </script>
 
 <style>
-  .welcome-position {
-    position:relative; 
-    top:300px
-  }
-  .welcome-text {
-    font-size:24px;
-  }
+  
 </style>

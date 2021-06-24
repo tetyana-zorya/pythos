@@ -8,6 +8,8 @@
 
 <script>
 
+
+
 export default {
   name: 'App',
 
@@ -18,6 +20,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Stoke:wght@300&display=swap');
+
 #app {
 font-size:16px;
 }
